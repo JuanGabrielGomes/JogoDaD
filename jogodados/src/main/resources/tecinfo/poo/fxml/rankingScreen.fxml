@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="CENTER" spacing="20" xmlns:fx="http://javafx.com/fxml"
+    fx:controller="tecinfo.poo.model.RankingController">
+    <TableView fx:id="rankingTableView">
+        <columns>
+            <TableColumn fx:id="nameColumn" text="Nome" />
+            <TableColumn fx:id="scoreColumn" text="Pontuação" />
+        </columns>
+    </TableView>
+    <Button text="Voltar" onAction="#handleBackToStart"/>
+</VBox>
